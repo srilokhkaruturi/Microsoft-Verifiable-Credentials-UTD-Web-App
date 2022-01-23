@@ -1,8 +1,40 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>VC Demo</title>
+    <link rel = "stylesheet" type = "text/css" href = "/index.css">
+    <script src="https://unpkg.com/vue@next"></script>
 
-<body>
-<h1> "Good Mythical Morning!" </h1>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+
+
+        *{
+            font-family: 'Be Veitnam Pro', sans-serif;
+        }
+
+    </style>
+
+
+</head>
+
+<body>  
+
+    <div id="title"> {{ age }} {{ message }}     
+        
+        <button @click="age++">incrwase</button>
+        <button @click="age--">decrease</button>
+    
+    
+    </div>
+    
+
+
+
+    <script src=app.js>
+    </script>
 </body>
-
-
 </html>
