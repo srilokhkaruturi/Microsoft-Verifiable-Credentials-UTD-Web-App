@@ -1,6 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
-
+/*
+    
+*/
 *{
     font-family: 'Be Veitnam Pro', sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+.messageInitial{
+    color:black;
+}
+
+.utdlogo{
+    width:15%;
+}
+
+.button{
+
+    font-family: 'Inter', sans-serif;
+    padding: 14px 40px;
+    transition-duration: .4s;
+    background-color:#bfbfbf;
+    color:black;
+    text-transform: lowercase;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+.microsoft{
+    width: 15%;
+    position: relative;
+}
+
+
+
+.button:hover{
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
 }
