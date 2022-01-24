@@ -1,14 +1,26 @@
-console.log("Hello, vue")
-
 // title
 const title = Vue.createApp({
     data(){
         return{
-            message: 'UTD Verifiable Credentials Demo',
-            age: 1
+            message: 'UTD Verifiable Credentials Demo'
+        }
+    },
+    methods: {
+        changeTitle(message){
+            this.message = message
         }
     }
 })
 
+// create verifiable credential ... all the code for me to create the verifiable credential will go in here 
+const createvc = Vue.createApp({
+    data() {
+    },
+    methods: {
+        perform(){
+            console.log('create vc')
+        }
+    }
+})
 
-title.mount('#title')
+createvc.mount('#createvc')
