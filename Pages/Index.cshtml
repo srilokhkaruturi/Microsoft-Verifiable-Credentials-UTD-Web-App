@@ -1,0 +1,25 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+            <div style="text-align: center;">
+                <img src="utdlogo.png" height=200px; />
+                <img class="microsoft" alt="microsoft" src="microsoft.png">
+                 <h1> UTD Verifiable Credentials Demo </h1>
+                <div class="messageInitial"><h2>This web application takes advantage of Microsoft Decentralized Verifiable Credentials Service which are on a decentralized blockchain to provide privacy/transparency and allow users to take true ownership of their data. This web app was created during Microsoft Decentralized Identity Hackathon</h2></div>
+                <button type="button" id="idIssue" class="button">GET CREDENTIAL</button>
+                <button type="button" id="idVerify" class="button">VERIFY CREDENTIAL</button>
+                <script>
+                        var idIssue = document.getElementById('idIssue');
+                        var idVerify = document.getElementById('idVerify');
+
+                        idIssue.addEventListener('click', () => {
+                            window.location = "issuer";
+                        })
+                        idVerify.addEventListener('click', () => {
+                            window.location = "verifier";
+                        })
+                    </script>
+            </div>
