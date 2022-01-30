@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xax7acvyqq9CnMptjSVusgLof0IjEHWQTRocwyI+BZJFsQdMIPNjdzuNsn8YHR8uW+PaT+1Y7G9WC9dxk4APdQ==",
+  "dgSpecHash": "F6Z+3CKco+f9a9AIn+OlvN4QaEP3KEZQ6LOjCt504xZOHWbNDux+0RgzvidS1z1RPLqjx69cXHQz8IMw1NeaeQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\srilo\\Box\\Education\\Microsoft-Verifiable-Credentials-UTD-Web-App\\azure files\\sample code\\active-directory-verifiable-credentials-dotnet\\1-asp-net-core-api-idtokenhint\\AspNetCoreVerifiableCredentials.csproj",
+  "projectFilePath": "C:\\Users\\srilo\\Box\\Education\\Microsoft-Verifiable-Credentials-UTD-Web-App\\AspNetCoreVerifiableCredentials.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\srilo\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\srilo\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",
