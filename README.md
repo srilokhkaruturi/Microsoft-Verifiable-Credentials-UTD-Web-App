@@ -1,6 +1,6 @@
 # UTD Verifiable Credentials Sample
 
-This is a demo of how Azure Active Directory Verifiable Credentials can be implemented at University of Texas at Dallas.
+This is a demo of how Azure Active Directory Verifiable Credentials can be implemented at The University of Texas at Dallas.
 
 ## [DEMO](https://www.youtube.com/watch?v=b__h7_F2S50) created by [Srilokh Karuturi](https://www.linkedin.com/in/srilokh-karuturi/)
 
